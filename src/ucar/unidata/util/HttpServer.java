@@ -866,6 +866,9 @@ public class HttpServer {
             //            writeLine("Cache-Control: no-cache"+CRLF);
             //            writeLine("Last-Modified: Fri, 12 Jan 2007 00:02:44 GMT"+CRLF);
             //            writeLine("Last-Modified:" + new Date()+CRLF);
+            writeLine("Access-Control-Allow-Origin: https://weather.rsmas.miami.edu"+CRLF);
+            writeLine("Access-Control-Allow-Methods: GET"+CRLF);
+
         }
 
 
